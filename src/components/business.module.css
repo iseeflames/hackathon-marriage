@@ -1,0 +1,8 @@
+.businessImageContainer{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.slider{
+    padding-top: 20px;
+}

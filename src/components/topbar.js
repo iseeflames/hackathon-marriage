@@ -3,14 +3,15 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
-import {topbar, topbarWrapper, logo,topbarIconContainer, box} from "./topbar.module.css"
+import {topbar, topbarWrapper, logo,topbarIconContainer, box, govImageContainer, govImage, topLeft, topRight} from "./topbar.module.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Topbar () {
     return (
         <div className={topbar}>
             <div className={topbarWrapper}>
-                    <div className={box}>
-                        <div className={topbarIconContainer}>
+                    <div className={topLeft}>
+                        {/* <div className={topbarIconContainer}>
                             <InstagramIcon/>
                         </div>
 
@@ -20,13 +21,17 @@ export default function Topbar () {
 
                         <div className={topbarIconContainer}>
                             <FacebookIcon/>
-                        </div>           
+                        </div>            */}
+
+                        <div className={govImageContainer}>
+                            <StaticImage className={govImage} src="../images/Code-of-Arms-colour.png"/>
+                        </div>
                         
                     </div>
                     <div className={box}>
-                        <span className={logo}>Marriage Hackathon</span>
+                        <span className={logo}>Civil and National Registration</span>
                     </div>
-                    <div className={box}>
+                    <div className={topRight}>
                         <div className={topbarIconContainer}>
                             <Brightness4Icon/>
                         </div>

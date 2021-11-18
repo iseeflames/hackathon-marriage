@@ -8,7 +8,7 @@ export default function Footer () {
             <div className={footerWrapper}>
 
                 <div className={additionalContent}>
-                    
+
                 <div className={bottomLeft}>
                     <div>
                         <span>Useful Links</span>
@@ -36,7 +36,7 @@ export default function Footer () {
                 </div>
 
                 <div className={bottomRight}>
-                <div>
+                    <div>
                         <span>Useful Links</span>
                     </div>
                     <ul>
