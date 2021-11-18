@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function MarriageRegister() {
+export default function HomeBody() {
     return (
         <div>
             

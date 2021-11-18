@@ -1,5 +1,5 @@
 import * as React from "react"
-import Footer from "../components/footer"
+import HomeBody from "../components/home-body"
 import Topbar from "../components/topbar"
 import {body} from "../pages/index.module.css"
 
@@ -8,9 +8,7 @@ const IndexPage = () => {
     <main className={body}>
       <title>Home Page | Hackathon Solution</title>
       <Topbar/>
-      <div >
-
-      </div>
+      <HomeBody/>
       {/* <Footer/> */}
     </main>
   )
