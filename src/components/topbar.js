@@ -3,7 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
-import {topbar, topbarWrapper, logo,topbarIconContainer, topLeft, topRight, box} from "./topbar.module.css"
+import {topbar, topbarWrapper, logo,topbarIconContainer, box} from "./topbar.module.css"
 
 export default function Topbar () {
     return (

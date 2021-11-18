@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
-.content{
-    width: 100%;
+/* .content{
+    align-items: center;
+} */
+
+.servicesOfferedContainer{
     display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
+    justify-content: center;
 }
 
 .offeredService{
@@ -21,6 +23,13 @@
     font-family: 'Shippori Antique', sans-serif;
 }
 
+.servicesOfferedTitle{
+    font-size: 35px;
+    font-family: 'Shippori Antique', sans-serif;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
 .registerButtonContainer{
     display: flex;
     justify-content: end;
@@ -29,4 +38,11 @@
 
 .serviceImageContainer{
     margin-top: 20px;
+}
+
+.servicesContainer{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
 }

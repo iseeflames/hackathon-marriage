@@ -2,6 +2,7 @@ import * as React from "react"
 import HomeBody from "../components/home-body"
 import Topbar from "../components/topbar"
 import {body} from "../pages/index.module.css"
+import Footer from "../components/footer"
 
 const IndexPage = () => {
   return (
@@ -9,7 +10,7 @@ const IndexPage = () => {
       <title>Home Page | Hackathon Solution</title>
       <Topbar/>
       <HomeBody/>
-      {/* <Footer/> */}
+      <Footer/>
     </main>
   )
 }

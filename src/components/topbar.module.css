@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
+
 .topbar{
     width: 100%;
     height: 50px;
@@ -21,6 +23,8 @@
     font-size: 30px;
     color: darkblue;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
 }
 
 .topLeft{
