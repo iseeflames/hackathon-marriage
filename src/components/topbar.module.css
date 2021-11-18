@@ -2,7 +2,9 @@
     width: 100%;
     height: 50px;
     background-color: white;
-    
+    border: black;
+    border-bottom: groove;
+    padding-bottom: 20px;
 }
 
 .topbarWrapper{
@@ -11,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .logo{
@@ -23,10 +26,12 @@
 .topLeft{
     display: flex;
     align-items: center;
+    justify-self: flex-start;
 }
 .topRight{
     display: flex;
     align-items: center;
+    justify-self: flex-end;
 }
 
 .topbarIconContainer{
@@ -35,3 +40,13 @@
     margin-right: 10px;
     color: #555;
 }
+
+.box{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.box:first-child > span { margin-right: auto; }
+
+.box:last-child  > span { margin-left: auto;  }
