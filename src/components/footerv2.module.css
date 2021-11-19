@@ -1,0 +1,10 @@
+.copyrightContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    background-color: grey;
+    color: white;
+}

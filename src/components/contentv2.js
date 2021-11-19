@@ -1,19 +1,19 @@
 import React from 'react'
-import {offeredService, serviceTitle,registerButtonContainer, serviceImageContainer, servicesContainer, servicesOfferedContainer,servicesOfferedTitle} from "./content-card.module.css"
+import {offeredService, serviceTitle,registerButtonContainer, serviceImageContainer, servicesContainer, servicesOfferedContainer,servicesOfferedTitle} from "./contentv2.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import {Container, Col, Row} from 'react-bootstrap'
 
-export default function ContentCard() {
+export default function ContentV2() {
     return (
-        <div className="">
+        <div>
             <div className={servicesOfferedContainer}>
                 <span className={servicesOfferedTitle}>Our Services</span>
-        </div>
+            </div>
 
-            <div className="">                
+            <div>
+            <Container>
                 <Row>
-                <div className={servicesContainer}>
-                    <Col md={4}>
+                    <Col xs={12} md={4}>
                     <div className={offeredService}>
                 <span className={serviceTitle}>Marriage Registration</span>
                 <div className={serviceImageContainer}><StaticImage src="../images/marriage-contract.jpg"/></div>
@@ -27,9 +27,9 @@ export default function ContentCard() {
             </div> 
                     </Col>
 
-                    <Col md={4}>
+                    <Col xs={12} md={4}>
                     <div className={offeredService}>
-                <span className={serviceTitle}>Property Instrument Registration</span>
+                <span className={serviceTitle}>Property Instrument Registr.</span>
                 <div className={serviceImageContainer}><StaticImage src="../images/marriage-contract.jpg"/></div>
                 <div className="serviceDescContainer">
                     <p className="serviceDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas augue diam, aliquam nec ultricies at, convallis quis odio. In odio.</p>
@@ -41,7 +41,7 @@ export default function ContentCard() {
             </div> 
                     </Col>
 
-                    <Col md={4}>
+                    <Col xs={12} md={4}>
                     <div className={offeredService}>
                 <span className={serviceTitle}>Change of Surname</span>
                 <div className={serviceImageContainer}><StaticImage src="../images/marriage-contract.jpg"/></div>
@@ -55,12 +55,13 @@ export default function ContentCard() {
             </div> 
                     </Col>
 
-                    </div>
+                   
                 </Row>
+            </Container>
 
-            </div>
-            
-                  
+        </div>
+
         </div>
     )
 }
+

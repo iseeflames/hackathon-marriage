@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+.noticeTitleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tableContainer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.boardTitle{
+    font-size: 35px;
+    font-family: 'Shippori Antique', sans-serif;
+    text-decoration: underline;
+    padding-top: 30px;
+}

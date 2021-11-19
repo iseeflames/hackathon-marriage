@@ -1,17 +1,16 @@
 import * as React from "react"
-import "./footer.module.css"
-import {footer,footerWrapper, bottomLeft,bottomRight, middle, copyrightContainer, additionalContent} from "./footer.module.css" 
+import "./footerv2.module.css"
+import {footer,bottomLeft,bottomRight, middle, copyrightContainer} from "./footerv2.module.css" 
 import {Container, Row, Col} from 'react-bootstrap'
 
-export default function Footer () {
+export default function FooterV2() {
     return (
-        <div >
-            
-            <div className={footerWrapper}>
-
-                <div className={additionalContent}>
-
-                <div className={bottomLeft}>
+        <div className={footer}>
+            <div className="additionalContent">
+            <Container>
+                <Row>
+                    <Col xs={6} md={4}>
+                    <div className={bottomLeft}>
                     <div>
                         <span>Useful Links</span>
                     </div>
@@ -23,8 +22,10 @@ export default function Footer () {
                         <li><a href="https://gov.bw/">Official Goverment Site</a></li>
                     </ul>
                 </div>
+                    </Col>
 
-                <div className={middle}>
+                    <Col xs={6} md={4}>
+                    <div className={middle}>
                 <div>
                         <span>Useful Links</span>
                     </div>
@@ -36,8 +37,10 @@ export default function Footer () {
                         <li><a href="https://gov.bw/">Official Goverment Site</a></li>
                     </ul>
                 </div>
+                    </Col>
 
-                <div className={bottomRight}>
+                    <Col xs={6} md={4}>
+                    <div className={bottomRight}>
                     <div>
                         <span>Useful Links</span>
                     </div>
@@ -49,16 +52,19 @@ export default function Footer () {
                         <li><a href="https://gov.bw/">Official Goverment Site</a></li>
                     </ul>
                 </div>
-                </div>
-                
-                <div className={copyrightContainer}>
-                        <span className="copyright">Copyright 2021 Elite Minds </span>
-                </div>
+                    </Col>
+                </Row>
 
+                <Row>
+                <div className={copyrightContainer}>                    
+                    <span className="copyright">Copyright 2021 Elite Minds </span>
                 </div>
-                
+                </Row>
+            </Container>
+            </div> 
 
-            </div>
-       
+            
+
+        </div>
     )
 }
