@@ -1,7 +1,8 @@
 import * as React from "react"
 import "./footerv2.module.css"
-import {footer,bottomLeft,bottomRight, middle, copyrightContainer} from "./footerv2.module.css" 
+import {smartBotsContainer, footer,bottomLeft,bottomRight, middle, copyrightContainer} from "./footerv2.module.css" 
 import {Container, Row, Col} from 'react-bootstrap'
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function FooterV2() {
     return (
@@ -9,7 +10,7 @@ export default function FooterV2() {
             <div className="additionalContent">
             <Container>
                 <Row>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={3}>
                     <div className={bottomLeft}>
                     <div>
                         <span>Useful Links</span>
@@ -24,7 +25,7 @@ export default function FooterV2() {
                 </div>
                     </Col>
 
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={3}>
                     <div className={middle}>
                 <div>
                         <span>Useful Links</span>
@@ -39,7 +40,7 @@ export default function FooterV2() {
                 </div>
                     </Col>
 
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={3}>
                     <div className={bottomRight}>
                     <div>
                         <span>Useful Links</span>
@@ -53,6 +54,11 @@ export default function FooterV2() {
                     </ul>
                 </div>
                     </Col>
+
+                    <Col xs={6} md={3} className={smartBotsContainer}>
+                    <StaticImage src="../images/logo-with-tagline.png"/>
+                    </Col>
+
                 </Row>
 
                 <Row>

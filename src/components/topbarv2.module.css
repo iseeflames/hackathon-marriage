@@ -8,10 +8,15 @@
 .logo{
     font-weight: 900;
     font-size: 2.5rem;
-    color: black;
+    color: white;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: white;
 }
 
 .topLeft{
@@ -65,18 +70,9 @@
     cursor: pointer;
 }
 
-.menu{
-    width: 50%;
-    display: flex;
-    justify-content: center;
+.rightHamburgerMenu{
+    justify-content: end!important;
 }
-
-.accountAccess{    
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
 
 
 @media screen and (max-width: 767px){

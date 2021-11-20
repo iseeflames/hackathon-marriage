@@ -1,5 +1,5 @@
 import React from 'react'
-import {offeredService, serviceTitle,registerButtonContainer, serviceImageContainer, servicesContainer, servicesOfferedContainer,servicesOfferedTitle} from "./content-card.module.css"
+import {buttonRegister, offeredService, serviceTitle,registerButtonContainer, serviceImageContainer, servicesContainer, servicesOfferedContainer,servicesOfferedTitle} from "./content-card.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import {Container, Col, Row} from 'react-bootstrap'
 
@@ -50,7 +50,7 @@ export default function ContentCard() {
                 </div>
                 <div></div>
                 <div className={registerButtonContainer}>
-                    <button>Register</button>
+                    <button className={buttonRegister}>Register</button>
                 </div>
             </div> 
                     </Col>

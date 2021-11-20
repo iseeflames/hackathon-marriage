@@ -1,13 +1,14 @@
 import * as React from "react"
-import Footer from "../components/footer"
-import Topbar from "../components/topbar"
+import FooterV2 from "../components/footerv2"
+import TopbarV2 from "../components/topbarv2"
 
 export default function PropertyRegister() {
     return (
         <div>
-            <Topbar/>
-            
-            <Footer/>
+            <TopbarV2/>            
+             1. check if user is logged in first
+             2. Display the forms.
+            <FooterV2/>
         </div>
     )
 }

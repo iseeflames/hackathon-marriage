@@ -1,5 +1,5 @@
 import React from 'react'
-import {offeredService, serviceTitle,registerButtonContainer, serviceImageContainer, servicesContainer, servicesOfferedContainer,servicesOfferedTitle} from "./contentv2.module.css"
+import {button65, buttonRegister, offeredService, serviceTitle,registerButtonContainer, serviceImageContainer, servicesContainer, servicesOfferedContainer,servicesOfferedTitle} from "./contentv2.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import {Container, Col, Row} from 'react-bootstrap'
 
@@ -22,7 +22,7 @@ export default function ContentV2() {
                 </div>
                 <div></div>
                 <div className={registerButtonContainer}>
-                <button>Register</button>
+                <button className={button65}>Get Started</button>
                 </div>
             </div> 
                     </Col>
@@ -36,7 +36,7 @@ export default function ContentV2() {
                 </div>
                 <div></div>
                 <div className={registerButtonContainer}>
-                <button>Register</button>
+                <button className={button65}>Get Started</button>
                 </div>
             </div> 
                     </Col>
@@ -50,11 +50,10 @@ export default function ContentV2() {
                 </div>
                 <div></div>
                 <div className={registerButtonContainer}>
-                    <button>Register</button>
+                    <button className={button65}>Get Started</button>
                 </div>
             </div> 
                     </Col>
-
                    
                 </Row>
             </Container>

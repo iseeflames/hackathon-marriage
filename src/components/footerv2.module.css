@@ -8,3 +8,8 @@
     background-color: grey;
     color: white;
 }
+
+.smartBotsContainer{
+    align-items: center;
+    display: flex;
+}
