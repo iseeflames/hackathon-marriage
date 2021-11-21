@@ -13,3 +13,8 @@
     align-items: center;
     display: flex;
 }
+
+.siteCreators{
+    text-decoration: none;
+    color: white;
+}

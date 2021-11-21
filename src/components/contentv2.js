@@ -1,7 +1,8 @@
 import React from 'react'
-import {button65, buttonRegister, offeredService, serviceTitle,registerButtonContainer, serviceImageContainer, servicesContainer, servicesOfferedContainer,servicesOfferedTitle} from "./contentv2.module.css"
+import {contentCardLink, button65,offeredService, serviceTitle,registerButtonContainer, serviceImageContainer, servicesOfferedContainer,servicesOfferedTitle} from "./contentv2.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import {Container, Col, Row} from 'react-bootstrap'
+import { Link } from "gatsby"
 
 export default function ContentV2() {
     return (
@@ -22,7 +23,7 @@ export default function ContentV2() {
                 </div>
                 <div></div>
                 <div className={registerButtonContainer}>
-                <button className={button65}>Get Started</button>
+                <button className={button65}><Link className={contentCardLink} to="/marriage-regist" >Get Started</Link></button>
                 </div>
             </div> 
                     </Col>
@@ -36,7 +37,7 @@ export default function ContentV2() {
                 </div>
                 <div></div>
                 <div className={registerButtonContainer}>
-                <button className={button65}>Get Started</button>
+                <button className={button65}><Link className={contentCardLink} to="/prop-regist" >Get Started</Link></button>
                 </div>
             </div> 
                     </Col>
@@ -50,7 +51,7 @@ export default function ContentV2() {
                 </div>
                 <div></div>
                 <div className={registerButtonContainer}>
-                    <button className={button65}>Get Started</button>
+                    <button className={button65}><Link className={contentCardLink} to="/surname-chang" >Get Started</Link></button>
                 </div>
             </div> 
                     </Col>

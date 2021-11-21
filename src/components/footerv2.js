@@ -1,6 +1,6 @@
 import * as React from "react"
 import "./footerv2.module.css"
-import {smartBotsContainer, footer,bottomLeft,bottomRight, middle, copyrightContainer} from "./footerv2.module.css" 
+import {smartBotsContainer, footer, copyrightContainer, siteCreators} from "./footerv2.module.css" 
 import {Container, Row, Col} from 'react-bootstrap'
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -11,7 +11,7 @@ export default function FooterV2() {
             <Container>
                 <Row>
                     <Col xs={6} md={3}>
-                    <div className={bottomLeft}>
+                    <div>
                     <div>
                         <span>Useful Links</span>
                     </div>
@@ -26,7 +26,7 @@ export default function FooterV2() {
                     </Col>
 
                     <Col xs={6} md={3}>
-                    <div className={middle}>
+                    <div>
                 <div>
                         <span>Useful Links</span>
                     </div>
@@ -41,7 +41,7 @@ export default function FooterV2() {
                     </Col>
 
                     <Col xs={6} md={3}>
-                    <div className={bottomRight}>
+                    <div>
                     <div>
                         <span>Useful Links</span>
                     </div>
@@ -63,7 +63,7 @@ export default function FooterV2() {
 
                 <Row>
                 <div className={copyrightContainer}>                    
-                    <span className="copyright">Copyright 2021 Elite Minds </span>
+                    <span className="copyright">Copyright 2021 <a className={siteCreators} href="https://www.facebook.com/okmalumscarface/">Elite Minds</a> </span>
                 </div>
                 </Row>
             </Container>

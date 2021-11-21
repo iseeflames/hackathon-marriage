@@ -112,3 +112,10 @@
     width: 176px;
   }
 }
+
+.contentCardLink, .contentCardLink:hover{
+  text-decoration: none!important;
+  color: white;
+}
+
+

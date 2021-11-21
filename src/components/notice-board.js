@@ -14,9 +14,9 @@ export default function NoticeBoard() {
                         <thead>
                             <tr>
                             <th>#</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Username</th>
+                            <th>Names</th>
+                            <th>Condition</th>
+                            <th>Date</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -34,7 +34,7 @@ export default function NoticeBoard() {
                             </tr>
                             <tr>
                             <td>3</td>
-                            <td colSpan="2">Larry the Bird</td>
+                            <td>Larry the Bird</td>
                             <td>@twitter</td>
                             </tr>
                         </tbody>
