@@ -179,7 +179,7 @@ export default function TopbarV2() {
                                 </NavDropdown>
                             </Nav>
                             <Nav>
-                            <NavDropdown title="Phomolo Phiri" id="collasible-nav-dropdown">
+                            <NavDropdown title="Logout" id="collasible-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1" >Profile</NavDropdown.Item>
                                     <NavDropdown.Item href="/" onClick={() => firebase.auth().signOut()}>Sign-out</NavDropdown.Item>
                                 </NavDropdown>
