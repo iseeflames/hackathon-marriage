@@ -6,7 +6,7 @@ import {signInHeadingContainer} from './signup.module.css'
 import IndexPage2 from '../pages/indexv2'
 
 const firebaseConfig = {
-    apiKey: 'AIzaSyAdC2-OS8crosJu0RL8N2f1YvOfWDJ0t6o',
+    apiKey: '',
     authDomain: 'hackathon-marriage.firebaseapp.com',
     projectId: 'hackathon-marriage',
     storageBucket: 'hackathon-marriage.appspot.com',
